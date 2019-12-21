@@ -32,7 +32,6 @@ Things you may want to cover:
 |email|string|null: false|
 |password|string|null: false|
 ### Association
-- has_many :grop
 - has_many :message
 - has_many :group_users
 
