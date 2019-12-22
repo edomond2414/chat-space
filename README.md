@@ -32,8 +32,9 @@ Things you may want to cover:
 |email|string|null: false|
 |password|string|null: false|
 ### Association
-- has_many :message
+- has_many :messages
 - has_many :group_users
+- has_many :grops
 
 # -----------------------
 
@@ -58,6 +59,7 @@ Things you may want to cover:
 
 ### Association
 - has_many :grop_users
+- has_many：users
 
 # ------------------------
 
